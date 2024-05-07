@@ -17,4 +17,6 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Sources/**/*.swift"
   spec.requires_arc = true
   spec.dependency "CryptoSwift", "~> 1.5"
+  
+  spec.resource_bundles = {'WalletConnectSwift' => ['Sources/PrivacyInfo.xcprivacy']}
 end

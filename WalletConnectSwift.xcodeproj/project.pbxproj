@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -72,6 +72,8 @@
 		0AD7D41623168008002BF84B /* WCURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCURL.swift; sourceTree = "<group>"; };
 		0AD7D4212316802C002BF84B /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		0AD7D42323168033002BF84B /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		20EB616D2BEA267E00CCF9C1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = SOURCE_ROOT; };
+		20EB616E2BEA268800CCF9C1 /* WalletConnectSwift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = WalletConnectSwift.podspec; sourceTree = SOURCE_ROOT; };
 		551B65ED22FC7E4100573DBD /* Communicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Communicator.swift; sourceTree = "<group>"; };
 		551B65F822FD78B700573DBD /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		5520F7B72317C0E600D58B74 /* ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
@@ -104,6 +106,8 @@
 		0A927851230BFB2600FDCC0D /* WalletConnectSwift */ = {
 			isa = PBXGroup;
 			children = (
+				20EB616E2BEA268800CCF9C1 /* WalletConnectSwift.podspec */,
+				20EB616D2BEA267E00CCF9C1 /* PrivacyInfo.xcprivacy */,
 				0A927852230BFB2600FDCC0D /* WalletConnectSwift.h */,
 				0A927853230BFB2600FDCC0D /* Info.plist */,
 			);
