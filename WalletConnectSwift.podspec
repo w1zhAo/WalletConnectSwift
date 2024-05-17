@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/WalletConnect/WalletConnectSwift.git", :tag => "#{spec.version}" }
   spec.source_files  = "Sources/**/*.swift"
   spec.requires_arc = true
-  spec.dependency "CryptoSwift",:git => 'https://github.com/QLCDFork/CryptoSwift.git'
+  spec.dependency "CryptoSwift"
   
   spec.resource_bundles = {'WalletConnectSwift' => ['Sources/PrivacyInfo.xcprivacy']}
 end
